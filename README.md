@@ -7,18 +7,20 @@ Things you may want to cover:
 
 * Ruby version
 
+Rails 5.0.2
+
+ruby 2.4.0p0 (2016-12-24 revision 57164) [x86_64-linux]
+
 * System dependencies
+
+Ruby on Rails 5 で作成した問い合わせフォーム(問い合わせ内容をメールで送信 + ChatWorkで通知する)のサンプルプログラムです。
 
 * Configuration
 
+http://qiita.com/na0AaooQ/items/19d9fb4bfd22dba3e55f
+
 * Database creation
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
+Not Used Database
 
 * ...
