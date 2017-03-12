@@ -25,6 +25,8 @@ Not Used Database
 
 * How to Use
 
+http://qiita.com/na0AaooQ/items/19d9fb4bfd22dba3e55f
+
 ```
 $ git clone https://github.com/na0AaooQ/inquiry-notice-chatwork.git
 ```
@@ -41,4 +43,9 @@ $ sed -i -e "s/\**@gmail.com/example@example.com/g" inquiry-notice-chatwork/app/
 ```
 $ grep "to:" inquiry-notice-chatwork/app/mailers/inquiry_mailer.rb 
   default to: "example@example.com"
+```
+
+```
+$ cd inquiry-notice-chatwork
+$ bundle install
 ```
