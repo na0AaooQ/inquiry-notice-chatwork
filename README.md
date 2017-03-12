@@ -22,3 +22,23 @@ http://qiita.com/na0AaooQ/items/19d9fb4bfd22dba3e55f
 * Database creation
 
 Not Used Database
+
+* How to Use
+
+```
+$ git clone https://github.com/na0AaooQ/inquiry-notice-chatwork.git
+```
+
+```
+$ grep "to:" inquiry-notice-chatwork/app/mailers/inquiry_mailer.rb 
+  default to: "********************@gmail.com"
+```
+
+```
+$ sed -i -e "s/\**@gmail.com/example@example.com/g" inquiry-notice-chatwork/app/mailers/inquiry_mailer.rb 
+```
+
+```
+$ grep "to:" inquiry-notice-chatwork/app/mailers/inquiry_mailer.rb 
+  default to: "example@example.com"
+```
