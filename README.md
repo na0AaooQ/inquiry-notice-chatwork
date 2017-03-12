@@ -6,9 +6,11 @@ Ruby on Rails 5 で作成した問い合わせフォーム(問い合わせ内容
 
 * Ruby version
 
-Rails 5.0.2
+以下の環境で動作します。
 
-ruby 2.4.0p0 (2016-12-24 revision 57164) [x86_64-linux]
+・Rails 5.0.2
+
+・ruby 2.4.0p0 (2016-12-24 revision 57164) [x86_64-linux]
 
 * System dependencies
 
@@ -33,6 +35,9 @@ $ grep "to:" inquiry-notice-chatwork/app/mailers/inquiry_mailer.rb
   default to: "********************@gmail.com"
 ```
 
+問い合わせ内容を送信するメールアドレスを指定します。
+例として、問い合わせ内容を example@example.com としたい場合、以下のコマンドを実行します。
+
 ```
 $ sed -i -e "s/\**@gmail.com/example@example.com/g" inquiry-notice-chatwork/app/mailers/inquiry_mailer.rb 
 ```
@@ -46,6 +51,8 @@ $ grep "to:" inquiry-notice-chatwork/app/mailers/inquiry_mailer.rb
 $ cd inquiry-notice-chatwork
 $ bundle install
 ```
+
+詳細は以下をご参照下さい。
 
 http://qiita.com/na0AaooQ/items/19d9fb4bfd22dba3e55f
 
