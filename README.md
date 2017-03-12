@@ -1,9 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Title
 
-Things you may want to cover:
+Ruby on Rails 5 で作成した問い合わせフォーム(問い合わせ内容をメールで送信 + ChatWorkで通知する)のサンプルプログラムです。
 
 * Ruby version
 
@@ -13,7 +12,7 @@ ruby 2.4.0p0 (2016-12-24 revision 57164) [x86_64-linux]
 
 * System dependencies
 
-Ruby on Rails 5 で作成した問い合わせフォーム(問い合わせ内容をメールで送信 + ChatWorkで通知する)のサンプルプログラムです。
+http://qiita.com/na0AaooQ/items/19d9fb4bfd22dba3e55f
 
 * Configuration
 
@@ -24,8 +23,6 @@ http://qiita.com/na0AaooQ/items/19d9fb4bfd22dba3e55f
 Not Used Database
 
 * How to Use
-
-http://qiita.com/na0AaooQ/items/19d9fb4bfd22dba3e55f
 
 ```
 $ git clone https://github.com/na0AaooQ/inquiry-notice-chatwork.git
@@ -49,3 +46,7 @@ $ grep "to:" inquiry-notice-chatwork/app/mailers/inquiry_mailer.rb
 $ cd inquiry-notice-chatwork
 $ bundle install
 ```
+
+http://qiita.com/na0AaooQ/items/19d9fb4bfd22dba3e55f
+
+
