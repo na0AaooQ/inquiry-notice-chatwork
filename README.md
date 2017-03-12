@@ -6,7 +6,12 @@ Ruby on Rails 5 で作成した問い合わせフォーム(問い合わせ内容
 
 * Ruby version
 
-以下の環境で動作します。
+Amazon EC(Amazon Linux)の以下のバージョンで動作する事を確認しています。
+
+```
+$ cat /etc/system-release
+Amazon Linux AMI release 2016.09
+```
 
 ```
 $ ruby -v
@@ -31,6 +36,23 @@ http://qiita.com/na0AaooQ/items/19d9fb4bfd22dba3e55f
 Not Used Database
 
 * How to Use
+
+使い方は以下の通りです。
+
+```
+# groupadd rails
+# useradd rails -g rails -d /home/rails -s /bin/bash
+```
+
+```
+# echo "rails ALL=(ALL) NOPASSWD:ALL" > /etc/sudoers.d/rails
+# chown root:root /etc/sudoers.d/rails
+# chmod 644 /etc/sudoers.d/rails
+```
+
+```
+# su - rails
+```
 
 ```
 $ git clone https://github.com/na0AaooQ/inquiry-notice-chatwork.git
@@ -58,8 +80,10 @@ $ cd inquiry-notice-chatwork
 $ bundle install
 ```
 
+```
+$ sudo -E /usr/local/rbenv/shims/rails server -d -b 0.0.0.0 --port=80
+```
+
 詳細は以下をご参照下さい。
 
 http://qiita.com/na0AaooQ/items/19d9fb4bfd22dba3e55f
-
-
