@@ -42,7 +42,7 @@ $ grep "to:" inquiry-notice-chatwork/app/mailers/inquiry_mailer.rb
 ```
 
 問い合わせ内容を送信するメールアドレスを指定します。
-例として、問い合わせ内容を example@example.com としたい場合、以下のコマンドを実行します。
+例として、問い合わせ内容を example@example.com 宛にメールで送信したい場合、以下のコマンドを実行します。
 
 ```
 $ sed -i -e "s/\**@gmail.com/example@example.com/g" inquiry-notice-chatwork/app/mailers/inquiry_mailer.rb 
