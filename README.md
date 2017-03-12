@@ -81,6 +81,11 @@ $ bundle install
 ```
 
 ```
+$ pwd
+/home/rails/inquiry-notice-chatwork
+```
+
+```
 $ sudo -E /usr/local/rbenv/shims/rails server -d -b 0.0.0.0 --port=80
 ```
 
