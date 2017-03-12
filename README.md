@@ -6,5 +6,5 @@ Ruby on Rails 5 で作成した問い合わせフォーム(問い合わせ内容
 http://qiita.com/na0AaooQ/items/19d9fb4bfd22dba3e55f
 
 ```
-https://github.com/na0AaooQ/inquiry-notice-chatwork.git
+git clone https://github.com/na0AaooQ/inquiry-notice-chatwork.git
 ```
