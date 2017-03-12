@@ -22,5 +22,3 @@ http://qiita.com/na0AaooQ/items/19d9fb4bfd22dba3e55f
 * Database creation
 
 Not Used Database
-
-* ...
