@@ -7,7 +7,9 @@ Ruby on Rails 5 で作成した問い合わせフォーム(問い合わせ内容
 * Ruby version
 
 以下の環境で動作します。
+
 Rails 5.0.2
+
 ruby 2.4.0p0
 
 * System dependencies
